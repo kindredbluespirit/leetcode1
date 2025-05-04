@@ -1,0 +1,11 @@
+cycle sort
+
+ultimately, arr[i] must contain i+1
+
+first iteration
+    if arr[i] = num, swap arr[i] and arr[num+1]
+
+second iteration
+    if arr[i] != i+1, return i+1
+
+O(n) time, O(1) space considering in-place modification/editing
