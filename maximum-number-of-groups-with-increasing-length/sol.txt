@@ -1,0 +1,8 @@
+length n
+
+counting sort using builtin Counter in O(n+k) time
+
+sig(k) = 1 + 2 + ... + k = k(k+1)/2
+
+At each element in sorted array, increment k by 1 such that
+sig(k-1) < cumulative sum < sig(k)
