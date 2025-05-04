@@ -1,0 +1,9 @@
+DP problem
+
+maintain a list of words in the dict starting at each index
+
+recursively make valid combinations.
+
+Example-
+suppose there's a word starting at index 0 with length 4, look
+for words at index 4 and so on. Basically DFS.
